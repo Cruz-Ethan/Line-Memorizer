@@ -1,0 +1,50 @@
+:root {
+    font-family: Arial;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: hsl(0, 0%, 90%);
+}
+
+#root {
+    width: clamp(0px, 100%, 1200px);
+}
+
+.buttons {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.button {
+    padding: 0.5rem 1.25rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 0.75rem;
+
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.previous {
+    background-color: white;
+    border: 1px solid hsl(0, 0%, 70%);
+}
+
+.next {
+    background-color: hsl(210, 80%, 50%);
+    color: white;
+    border: none;
+}

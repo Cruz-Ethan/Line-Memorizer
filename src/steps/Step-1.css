@@ -1,0 +1,12 @@
+.step-1__text {
+    width: 100%;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    
+    min-height: 10rem;
+    field-sizing: content;
+    resize: none;
+
+    font-family: Arial;
+}
